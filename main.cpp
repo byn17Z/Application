@@ -1,5 +1,8 @@
 
 #include "Compile.h"
+#include <iostream>
+using namespace std;
+
 int main(){
     // you need absolute path to use gettoken
     /*
@@ -8,5 +11,12 @@ int main(){
     auto sym=analysis(tree);
     tree.getNode();
     */
-    compile("/Users/zhaokunxiang/clion/compiler/Test/ForStmt.cpp","/Users/zhaokunxiang/clion/compiler/Test/ForStmt.exe");
+    string file;
+    string path;
+    cout << "src file: " << endl;
+    getline(cin, file);
+    cout << "target path: " << endl;
+    getline(cin, path);
+    compile(file, path);
+    return 0;
         }
