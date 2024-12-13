@@ -3,3 +3,6 @@
 # 库的使用
 使用了`gtest`库进行测试，使用`cmake`进行编译，所有库的资源将放在`lib`目录下
 # 先pull,在开发。开发完后，在pull一遍，然后在push
+# 更新应用程序使用方式
+控制台指令：
+'''Compiler <src_path> <target_path>'''
