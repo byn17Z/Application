@@ -16,8 +16,8 @@ message(STATUS "LLVM_VERSION: ${LLVM_VERSION_STRING}")
 add_library(CodeGeneration
         APIOfcodegeneration.cpp
         APIOfcodegeneration.h
-        A.cpp
-        A.h
+        # A.cpp
+        # A.h
         IR_Transform.cpp
         IR_Transform.h
         Source/LLVM_Part.cpp
