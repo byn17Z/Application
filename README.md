@@ -5,4 +5,4 @@
 # 先pull,在开发。开发完后，在pull一遍，然后在push
 # 更新应用程序使用方式
 控制台指令：
-'''Compiler <src_path> <target_path>'''
+```Compiler <src_path> <target_path>```
