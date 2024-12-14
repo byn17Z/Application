@@ -6,3 +6,7 @@
 # 更新应用程序使用方式
 控制台指令：
 ```Compiler <src_path> <target_path>```
+eg.
+```
+compiler.exe path/to/src path/to/target/dir/name.exe
+```
