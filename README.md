@@ -10,5 +10,5 @@ Compiler <src_path> <target_path>
 ```
 eg.
 ```
-compiler.exe path/to/src path/to/target/dir/name.exe
+compiler.exe path/to/src.cpp path/to/target/dir/name.exe
 ```
